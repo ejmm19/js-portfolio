@@ -90,7 +90,7 @@ module.exports = {
             ]
         }),
         new Dotenv({
-            path: "./src/.env",
+            path: "./.env",
         }),
         new CleanWebpackPlugin()
     ],
